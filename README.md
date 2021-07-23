@@ -19,6 +19,7 @@ https://www.kaggle.com/gpandi007/usa-housing-dataset?select=housing_test.csv
 
 f) Vehicle fuel type
 https://data.ca.gov/dataset/vehicle-fuel-type-count-by-zip-code/resource/4254a06d-9937-4083-9441-65597dd267e8
+https://www.energy.ca.gov/data-reports/energy-insights/zero-emission-vehicle-and-charger-statistics
 
 ## For each of the dataset, below are the questions we are hoping to answer using predictive model.
 
