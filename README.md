@@ -11,7 +11,7 @@ https://www.kaggle.com/tejashvi14/travel-insurance-prediction-data
 c)Reading Habits
 https://www.kaggle.com/vipulgote4/reading-habit-dataset
 
-d) Retail data set
+d) Retail data set https://www.kaggle.com/vik2012kvs/walmart-dataretail-analysis?select=Walmart_Store_sales.csv
 
 
 e) House Sales 
