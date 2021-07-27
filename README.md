@@ -47,22 +47,23 @@ f) Vehicle fuel type
 A) General Reason
 1. A useful topic for Youtube content creators. 
 2. Youtube is a global platform with over 2 billion users
+3. The analysis will be usefule for promotional and marketing purpose.
 
 B) Project specific reason
-1. Availability of more recent datasets
-2. Quantity of data available 
-3. Applicability of tools and technologies learnt during the course to meet deliverables.
+1. Availability of more recent dataset
+2. Availability of number of records for the data required to perform analysis.
+3. Applicability of tools and technologies learnt during the course to meet the deliverables.
 
 ## Description of source of the data
 This dataset is available on Kaggle where the publisher has extracted it from the Youtube API.This dataset is a daily record of the top trending YouTube videos available in a CSV format. It contains details such as video title, channel title, publish time, tags, views, likes and dislikes, description, and comment count. The Category_id which represents video category is available in an associated JSON file. Source:  https://www.kaggle.com/datasnaek/youtube-new?select=USvideos.csv
 
 ## Team member roles 
-- Square - Dixie
-- Triangle - Neeraja & Nisha
-- Circle - Dixie & Richelle
-- X - Dixie, Richelle, Neeraja & Nisha
+- Square - Dixie Peralta
+- Triangle - Neeraja Jayaraman & Nisha Bharakhada
+- Circle - Dixie Peralta & Richelle Long
+- X - Dixie Peralta, Richelle Long, Neeraja Jayaraman & Nisha Bharakhada
 
-##Commmunication protocol
+## Commmunication protocol
 1. Git Hub - Coding, ReadMe, Commits and Final Project Results  
 2. Slack - Team's main communication  
 3. Google Drive  - For Assignments, Documents and Notes  
@@ -71,8 +72,6 @@ This dataset is available on Kaggle where the publisher has extracted it from th
 ## Presentation
 - Provisional Machine learning Model - Neeraja and Nisha
 - Provisional Database - Dixie & Richelle
-
-
 
 ## Communication protocols Include PNGs for these spreadsheets.
 
