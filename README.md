@@ -2,7 +2,7 @@
 
 ## Dataset
 
-a) Youtube Viral Video 
+a) Youtube trending Video 
 https://www.kaggle.com/datasnaek/youtube-new?select=USvideos.csv https://www.kaggle.com/datasnaek/youtube-new?select=USvideos.csv https://www.statista.com/statistics/1106313/youtube-usage-increase-due-to-coronavirus-home-usa/
 
 b) Travel insurance 
@@ -23,9 +23,9 @@ https://www.energy.ca.gov/data-reports/energy-insights/zero-emission-vehicle-and
 
 ## For each of the dataset, below are the questions we are hoping to answer using predictive model.
 
-a) Youtube Viral Video
-- Predict what features could make a video viral on Youtube.
-- Using multiple country or one country dataset
+a) Youtube trending Video
+- Perform analysis of trending videos by each feature (category, Tags, Likes, comments,title etc.). Use Machine learning models to predict What features could make a video trending on YouTube. 
+- Using USA country dataset
 
 b) Travel insurance 
 - Predict whether consumers would prefer to buy travel insurance post pandemic?
@@ -41,3 +41,38 @@ e) House Sales
 
 f) Vehicle fuel type
 - With the advent of EV, predict the future of fuel based vehicles by location
+
+## Topic Selection and Reason for the selection
+
+A) General Reason
+1. A useful topic for Youtube content creators. 
+2. Youtube is a global platform with over 2 billion users
+
+B) Project specific reason
+1. Availability of more recent datasets
+2. Quantity of data available 
+3. Applicability of tools and technologies learnt during the course to meet deliverables.
+
+## Description of source of the data
+This dataset is available on Kaggle where the publisher has extracted it from the Youtube API.This dataset is a daily record of the top trending YouTube videos available in a CSV format. It contains details such as video title, channel title, publish time, tags, views, likes and dislikes, description, and comment count. The Category_id which represents video category is available in an associated JSON file. Source:  https://www.kaggle.com/datasnaek/youtube-new?select=USvideos.csv
+
+## Team member roles 
+- Square - Dixie
+- Triangle - Neeraja & Nisha
+- Circle - Dixie & Richelle
+- X - Dixie, Richelle, Neeraja & Nisha
+
+##Commmunication protocol
+1. Git Hub - Coding, ReadMe, Commits and Final Project Results  
+2. Slack - Team's main communication  
+3. Google Drive  - For Assignments, Documents and Notes  
+4. Zoom - Daily / Weekly meetups
+
+## Presentation
+- Provisional Machine learning Model - Neeraja and Nisha
+- Provisional Database - Dixie & Richelle
+
+
+
+## Communication protocols Include PNGs for these spreadsheets.
+
