@@ -68,10 +68,12 @@ This dataset is available on Kaggle where the publisher has extracted it from th
 
 ## Database Description
 PostgreSQL – Relational Database System
-![DB_ERD_SQL_posGres.png]
+![DB_ERD_SQL_posGres.png] (./ETL/DB_ERD_SQL_posGres.png)
+
+
 
 Quick Database Diagrams
-![BootCamp_Project/ETL/ERD.png]
+![ETL/ERD.png](.ETL/ERD.png)
 
 # Technologies Used
 ## Data Cleaning and Analysis
