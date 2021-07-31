@@ -1,46 +1,21 @@
 # BootCamp_Project
 
+- Analyze a dataset consisting of 6,000 Youtube Videos to discover the pattern of list of trending videos. Once analysis is done, use machine learning model to predict the features/variables are primary key criteria resulting the videos to make it trending. 
+
 ## Dataset
+Number of dataset reviewed before finalizing the Youtube Video Dataset from sopurce - Kaggle.com
+- Youtube trending Video 
+- Travel insurance 
+- Reading Habits
+- Retail data set - Walmart
+- House Sales 
+- Vehicle fuel type
 
-a) Youtube trending Video 
-https://www.kaggle.com/datasnaek/youtube-new?select=USvideos.csv https://www.kaggle.com/datasnaek/youtube-new?select=USvideos.csv https://www.statista.com/statistics/1106313/youtube-usage-increase-due-to-coronavirus-home-usa/
+## For the selected dataset, below are the questions we are hoping to answer using predictive model.
 
-b) Travel insurance 
-https://www.kaggle.com/tejashvi14/travel-insurance-prediction-data
-
-c)Reading Habits
-https://www.kaggle.com/vipulgote4/reading-habit-dataset
-
-d) Retail data set https://www.kaggle.com/vik2012kvs/walmart-dataretail-analysis?select=Walmart_Store_sales.csv
-
-
-e) House Sales 
-https://www.kaggle.com/gpandi007/usa-housing-dataset?select=housing_test.csv
-
-f) Vehicle fuel type
-https://data.ca.gov/dataset/vehicle-fuel-type-count-by-zip-code/resource/4254a06d-9937-4083-9441-65597dd267e8
-https://www.energy.ca.gov/data-reports/energy-insights/zero-emission-vehicle-and-charger-statistics
-
-## For each of the dataset, below are the questions we are hoping to answer using predictive model.
-
-a) Youtube trending Video
+## Youtube trending Video
 - Perform analysis of trending videos by each feature (category, Tags, Likes, comments,title etc.). Use Machine learning models to predict What features could make a video trending on YouTube. 
 - Using USA country dataset
-
-b) Travel insurance 
-- Predict whether consumers would prefer to buy travel insurance post pandemic?
-
-c) Reading Habits
-- Predict Reading habits(Genre or type of book) based on demographic details and education details if there is a significant change in demographic+education details, will that impact the reading habits of the population
-
-d) Retail Dataset
--  Predict whether retail stores would still be sustainable business model with digitization taking the lead across the globe.
-
-e) House Sales
-- Predict the pricing/ buying pattern based on features of the house
-
-f) Vehicle fuel type
-- With the advent of EV, predict the future of fuel based vehicles by location
 
 ## Topic Selection and Reason for the selection
 
@@ -48,10 +23,12 @@ A) General Reason
 1. A useful topic for Youtube content creators. 
 2. Youtube is a global platform with over 2 billion users
 3. The analysis will be usefule for promotional and marketing purpose.
+4. Youtubers/Business/Professionals can use this model as an input before uploading their videos to make their videos popular/ trending.
+
 
 B) Project specific reason
-1. Availability of more recent dataset
-2. Availability of number of records for the data required to perform analysis.
+1. Availability of the dataset
+2. Availability of number of records for the data required to perform the analysis.
 3. Applicability of tools and technologies learnt during the course to meet the deliverables.
 
 ## Description of source of the data
@@ -74,4 +51,22 @@ This dataset is available on Kaggle where the publisher has extracted it from th
 - Provisional Database - Dixie & Richelle
 
 ## Communication protocols Include PNGs for these spreadsheets.
+
+## Tools/Technologies used to understand/review the dataset to meet the Project Deliverables.
+
+- Microsoft Excel - To view the data once csv file is downloaded
+- Postgress SQL - To create a database
+- Python (Jupyter Notebook)
+- QBD - To create ERD diagram
+- Github
+- Google Drive - To keep all the documents at one central location
+
+
+## Machine Learning Model Description
+
+- Multiple Regression Model 
+
+## Database Description
+- (please attached snapshot for sqL)
+
 
