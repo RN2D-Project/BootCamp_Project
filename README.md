@@ -79,6 +79,6 @@ Quick Database Diagrams
 ## Database Storage
 - Postgres Sql is the database we intend to use.
 ## Machine Learning
-- SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is ___. 
+- SciKitLearn is the ML library we used Multiple Regression Model. 
 
 
