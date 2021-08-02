@@ -54,7 +54,7 @@ The following modes of communication will be used by the team.
 3. Google Drive  - For Assignments, Documents and Notes  
 4. Zoom - Daily / Weekly meetups
 For more details, please refer to the communication protocol document.
-[Communication Protocol.docx](Communication/Protocol.docx)
+[CommunicationProtocol.docx](CommunicationProtocol.docx)
 
 ## __Presentation:__
 - Provisional Machine learning Model - Neeraja and Nisha
@@ -81,7 +81,7 @@ For more details, please refer to the Machine Learning Documentation.
 ## __Database Description:__
 
 For details on Data ETL process and database setup, please refer to the Database documentation.
-[ETL Process.docx](/ETL/ETL/Process.docx)
+[ETLProcess.docx](/ETL/ETLProcess.docx)
 
 The schema of the database can be viewed below:
 
