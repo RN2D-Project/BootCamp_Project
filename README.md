@@ -52,7 +52,7 @@ This dataset is available on Kaggle where the publisher has extracted it from th
 
 ## Communication protocols Include PNGs for these spreadsheets.
 
-## Tools/Technologies used to understand/review the dataset to meet the Project Deliverables.
+## Tools used to understand/review the dataset to meet the Project Deliverables.
 
 - Microsoft Excel - To view the data once csv file is downloaded
 - Postgress SQL - To create a database
@@ -67,6 +67,16 @@ This dataset is available on Kaggle where the publisher has extracted it from th
 - Multiple Regression Model 
 
 ## Database Description
-- (please attached snapshot for sqL)
+PostgreSQL – Relational Database System
+![DB_ERD_SQL_posGres.png](/ETL/DB_ERD_SQL_posGres.png)
 
+Quick Database Diagrams
+![ETL/ERD.png](/ETL/ERD.png)
 
+# Technologies Used
+## Data Cleaning and Analysis
+- Pandas/Numpy/ Datetime will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
+## Database Storage
+- Postgres Sql is the database we intend to use.
+## Machine Learning
+- SciKitLearn is the ML library we used Multiple Regression Model. 
