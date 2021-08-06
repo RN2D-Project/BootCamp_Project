@@ -1,0 +1,7 @@
+﻿bp_key,bp_category,systolic_mmHg,and_or,diastolic_mmHg
+D,Low,90,and,LESS THAN 60
+E,Normal,LESS THAN 120,and,LESS THAN 80
+F,Elevated,120 – 129,and,LESS THAN 80
+G,High BP - Hypertenstion Stage1,130 – 139,or,80 – 89
+H,High BP - Hypertenstion Stage2,140,or,90 OR HIGHER
+I,Hypertensive Crisis,HIGHER THAN 180,and/or,HIGHER THAN 120
