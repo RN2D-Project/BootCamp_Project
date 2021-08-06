@@ -1,5 +1,5 @@
-﻿BMI_key,BMI,Description
-J,18.4 and Below,Underweight
-K,18.5 – 24.9,Normal 
-L,25.0 – 29.9,Overweight
-M,30.0 and Above,Obese
+﻿BMI,Description
+18.4 and Below,Underweight
+18.5 – 24.9,Normal 
+25.0 – 29.9,Overweight
+30.0 and Above,Obese
