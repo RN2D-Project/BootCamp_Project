@@ -1,4 +1,4 @@
-﻿bp_key,bp_category,systolic_mmHg,and_or,diastolic_mmHg
+﻿bp_key,bp_category,systolic_mmhg,and_or,diastolic_mmhg
 D,Low,90,and,LESS THAN 60
 E,Normal,LESS THAN 120,and,LESS THAN 80
 F,Elevated,120 – 129,and,LESS THAN 80
