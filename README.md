@@ -62,6 +62,8 @@ For more details, please refer to the communication protocol document.
 Presentation can be viewed at this link:
 https://drive.google.com/file/d/1jBHAhm4AzAVBi5AUHJoCA3l3yXS9wJuA/view?usp=sharing
 
+The presentation can be viewed at the following link: https://drive.google.com/file/d/1jBHAhm4AzAVBi5AUHJoCA3l3yXS9wJuA/view?usp=sharing
+
 ## __Tools and technologies used in Segment 1:__
 
 - Microsoft Excel - To view the data once csv file is downloaded
