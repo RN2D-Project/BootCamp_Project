@@ -1,9 +1,9 @@
 # __BootCamp_Project__
 
 ## __Overview:__
-Originially - The group identified YouTube videos with 6000 records to performn the analysis and use machine learning to understand which feature contributes the most to make the video trending. Using the regression model, the accuracy score was less tha 0.80, hence, the group switched the project to a different dataset (Heart Disease).
+Originally - The group identified YouTube videos with 6000 records to performn the analysis and use machine learning to understand which feature contributes the most to make the video trending. Using the regression model, the accuracy score was very low, hence, the group switched the project to a different dataset (Heart Disease).
 
-In this current dataset which is related to Heart Disease, our  objective is to identify the the weightage for each feature i.e. preexisting condition, medication, age group and other parameters to predict whether a patient is at hear disease risk or not.  
+In this current dataset which is related to Heart Disease, our  objective is to identify the the weightage for each feature i.e. preexisting condition, medication, age group and other parameters to predict whether a patient is at heart disease risk or not.  
 
 ### __Dataset selection:__
 A number of datasets were reviewed before finalizing the Youtube Video Dataset from source - Kaggle.com, namely:
@@ -32,12 +32,14 @@ B) Project specific reasons
 3. Applicability of tools and technologies learnt during the course to meet the deliverables.
 
 ## Description of source of the data
-This dataset is available on Kaggle where the publisher has extracted it from UCI (https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/). It contains details such as patient age, medication, test results,smoking pattern to predict whether the patient is at risk or not.
+This dataset has been sourced from Kaggle. 
 Source: https://www.kaggle.com/dileep070/heart-disease-prediction-using-logistic-regression
+
+It contains details such as patient age, medication, test results,smoking pattern to predict whether the patient is at risk or not.
 
 
 ### __Purpose of Analysis:__
-For the purpose of our analysis, we will use data related to heart disease to predict whether the patient has geat disease risk or not.
+For the purpose of our analysis, we will use data related to heart disease to predict whether the patient has heart disease risk or not.
 
 The following actions will be performed:
 
@@ -64,8 +66,6 @@ For more details, please refer to the communication protocol document.
 ## __Presentation:__
 - Provisional Machine learning Model - Neeraja and Nisha
 - Provisional Database - Dixie & Richelle
-Presentation can be viewed at this link:
-https://drive.google.com/file/d/1jBHAhm4AzAVBi5AUHJoCA3l3yXS9wJuA/view?usp=sharing
 
 The presentation can be viewed at the following link: 
 Segment 1 - https://drive.google.com/file/d/1jBHAhm4AzAVBi5AUHJoCA3l3yXS9wJuA/view?usp=sharing
@@ -77,9 +77,12 @@ Segment 2 - https://drive.google.com/drive/folders/14KQiHRpSGZYOli-9ZkKgPc7hI9MZ
 ## __Tools and technologies used in Segment 1:__
 
 - Microsoft Excel - To view the data once csv file is downloaded
+- AWS and S3 - Database hosting on the cloud
 - Postgress SQL - To create a database
 - Python (Jupyter Notebook)
-- QBD - To create ERD diagram
+- QDB - To create ERD diagram
+- SCIKIT learn machine learning Library 
+- Tableau for Visualizations
 - Github
 - Google Drive - To keep all the documents at one central location
 For more details, please refer to the Technology documentation.
@@ -87,10 +90,10 @@ For more details, please refer to the Technology documentation.
 
 ## __Machine Learning Model Description:__
 
-The machine learning model proposed for this project is Multiple regression model in order to predict the trisk of patient for heart disease. 
+The machine learning model proposed for this project is a Logistic regression model in order to predict the risk of patient for heart disease based on existing features and parameters. Other Classification models such as Support vector Model, Random Forest Classifier and Decision Tree Classifier may also be used to build a robust Machine Learning Model.
 
 For more details, please refer to the Machine Learning Documentation.
-![MachineLearningModel_proposal_Seg1.docx](/MachineLearningModel/MachineLearningModel_proposal_Seg1.docx)
+![MachineLearningModel_proposal_Seg2.docx](/Machine_Learning_Model/MachineLearningModel_proposal_Seg2.docx)
 
 ## __Database Description:__
 
@@ -116,7 +119,7 @@ PostgreSQL – Relational Database System, as seen in the screenshot below:
 
 
 ## Dashboard Visualization:
-For Dashboard blueprint, please refer to the below files:
+It has been proposed that Tableau will be used to create visualizations for this project. For Dashboard blueprint, please refer to the below files:
 
 1) Risk by BP and  Agegroup 
 
