@@ -7,7 +7,7 @@
 - Data has been extracted from Kaggle in CSV format.
 - Microsoft Excel has been used for some basic data exploration.
 - Pandas and Jupyter Notebook have been used to extract and clean the data.
-- MatPlotLib Library has been used to perform exploratory Data Analysis.
+- MatPlotLib Library and Seaborn library have been used to perform exploratory Data Analysis and visualization.
 - Python programming language has been used and will be used for further analysis.
 
 
