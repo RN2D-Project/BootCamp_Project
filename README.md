@@ -66,8 +66,6 @@ For more details, please refer to the communication protocol document.
 ## __Presentation:__
 - Provisional Machine learning Model - Neeraja and Nisha
 - Provisional Database - Dixie & Richelle
-Presentation can be viewed at this link:
-https://drive.google.com/file/d/1jBHAhm4AzAVBi5AUHJoCA3l3yXS9wJuA/view?usp=sharing
 
 The presentation can be viewed at the following link: 
 Segment 1 - https://drive.google.com/file/d/1jBHAhm4AzAVBi5AUHJoCA3l3yXS9wJuA/view?usp=sharing
