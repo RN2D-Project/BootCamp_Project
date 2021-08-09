@@ -69,6 +69,12 @@ For more details, please refer to the communication protocol document.
 Presentation can be viewed at this link:
 https://drive.google.com/file/d/1jBHAhm4AzAVBi5AUHJoCA3l3yXS9wJuA/view?usp=sharing
 
+The presentation can be viewed at the following link: 
+Segment 1 - https://drive.google.com/file/d/1jBHAhm4AzAVBi5AUHJoCA3l3yXS9wJuA/view?usp=sharing
+Segment 2 - https://drive.google.com/drive/folders/14KQiHRpSGZYOli-9ZkKgPc7hI9MZ7THd
+
+- Flow Diagram
+![Segment_2_Flow_Diagram.PNG](/Segment_2_Flow_Diagram.PNG)
 
 ## __Tools and technologies used in Segment 1:__
 
@@ -104,10 +110,13 @@ It has been proposed that our database will be created in
 PostgreSQL – Relational Database System, as seen in the screenshot below:
 ![DB_ERD_SQL_posGres.png](/ETL/DB_ERD_SQL_posGres.png)
 
-Connection String (AWS to PostgressSQL)
-![pgAdmin_AWS_connection.png](Database/pgAdmin_AWS_connection.png)
+- Connection String (AWS to PostgressSQL)
+
+![pgAdmin_AWS_connection.png](/Database/pgAdmin_AWS_connection.png)
+
 
 - File on AWS - S3 bucket
+
 ![AWS_S3_Bucket.png](Database/AWS_S3_Bucket.png)
 
 
