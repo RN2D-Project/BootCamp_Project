@@ -68,11 +68,13 @@ For more details, please refer to the communication protocol document.
 - Provisional Database - Dixie & Richelle
 
 The presentation can be viewed at the following link: 
+
 Segment 1 - https://drive.google.com/file/d/1jBHAhm4AzAVBi5AUHJoCA3l3yXS9wJuA/view?usp=sharing
+
 Segment 2 - https://drive.google.com/drive/folders/14KQiHRpSGZYOli-9ZkKgPc7hI9MZ7THd
 
 - Flow Diagram
-![Segment_2_Flow_Diagram.PNG](/Segment_2_Flow_Diagram.PNG)
+![Segment_2_Flow_Diagram.PNG](Segment_2_Flow_Diagram.PNG)
 
 ## __Tools and technologies used in Segment 1:__
 
@@ -95,10 +97,14 @@ The machine learning model proposed for this project is a Logistic regression mo
 For more details, please refer to the Machine Learning Documentation.
 ![MachineLearningModel_proposal_Seg2.docx](/Machine_Learning_Model/MachineLearningModel_proposal_Seg2.docx)
 
+The code for Machine Learning Model can be viewed here:
+[HeartDiseasePredictor_MLM.ipynb](HeartDiseasePredictor_MLM.ipynb)
 ## __Database Description:__
 
 For details on Data ETL process and database setup, please refer to the Database documentation.
 ![HD_ETL_AWS_and_S3_documentation.docx](/ETL/HD_ETL_AWS_and_S3_documentation.docx)
+
+The code for ETL can be viewed here: [predicting_heart_disease_in_females.ipynb](predicting_heart_disease_in_females.ipynb)
 
 The schema of the database can be viewed below:
 Quick Database Diagram:
@@ -106,8 +112,6 @@ Quick Database Diagram:
 
 It has been proposed that our database will be created in 
 PostgreSQL – Relational Database System, as seen in the screenshot below:
-![DB_ERD_SQL_posGres.png](/ETL/DB_ERD_SQL_posGres.png)
-
 - Connection String (AWS to PostgressSQL)
 
 ![pgAdmin_AWS_connection.png](/Database/pgAdmin_AWS_connection.png)
