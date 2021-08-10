@@ -71,7 +71,7 @@ The presentation can be viewed at the following link:
 
 Segment 1 - https://drive.google.com/file/d/1jBHAhm4AzAVBi5AUHJoCA3l3yXS9wJuA/view?usp=sharing
 
-Segment 2 - https://drive.google.com/drive/folders/14KQiHRpSGZYOli-9ZkKgPc7hI9MZ7THd
+Segment 2 - https://docs.google.com/presentation/d/13ICAp0w_pGawtcIiCHCIWfkRKR1s869B/edit?rtpof=true
 
 - Flow Diagram
 ![Flow_Diagram.PNG](/Tableau_Dashboard_files/Flow_Diagram.PNG)
