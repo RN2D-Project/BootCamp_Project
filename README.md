@@ -74,7 +74,7 @@ Segment 1 - https://drive.google.com/file/d/1jBHAhm4AzAVBi5AUHJoCA3l3yXS9wJuA/vi
 Segment 2 - https://drive.google.com/drive/folders/14KQiHRpSGZYOli-9ZkKgPc7hI9MZ7THd
 
 - Flow Diagram
-![Segment_2_Flow_Diagram.PNG](Segment_2_Flow_Diagram.PNG)
+![Flow_Diagram.PNG](/Tableau_Dashboard_files/Flow_Diagram.PNG)
 
 ## __Tools and technologies used in Segment 1:__
 
