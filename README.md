@@ -121,6 +121,11 @@ PostgreSQL – Relational Database System, as seen in the screenshot below:
 
 ![AWS_S3_Bucket.png](Database/AWS_S3_Bucket.png)
 
+- File 
+
+- Different tables were joined using 'join' query
+![FHD_predictor_SQLCode.py](ETL/FHD_predictor_SQLCode.py)
+
 
 ## Dashboard Visualization:
 It has been proposed that Tableau will be used to create visualizations for this project. For Dashboard blueprint, please refer to the below files:
