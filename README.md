@@ -71,10 +71,10 @@ The presentation can be viewed at the following link:
 
 Segment 1 - https://drive.google.com/file/d/1jBHAhm4AzAVBi5AUHJoCA3l3yXS9wJuA/view?usp=sharing
 
-Segment 2 - https://drive.google.com/drive/folders/14KQiHRpSGZYOli-9ZkKgPc7hI9MZ7THd
+Segment 2 - https://docs.google.com/presentation/d/13ICAp0w_pGawtcIiCHCIWfkRKR1s869B/edit?rtpof=true
 
 - Flow Diagram
-[Segment_2_Flow_Diagram.PNG](Segment_2_Flow_Diagram.PNG)
+![Flow_Diagram.PNG](/Tableau_Dashboard_files/Flow_Diagram.PNG)
 
 ## __Tools and technologies used in Segment 1:__
 
@@ -120,6 +120,11 @@ PostgreSQL – Relational Database System, as seen in the screenshot below:
 - File on AWS - S3 bucket
 
 ![AWS_S3_Bucket.png](Database/AWS_S3_Bucket.png)
+
+- File 
+
+- Different tables were joined using 'join' query
+![FHD_predictor_SQLCode.py](ETL/FHD_predictor_SQLCode.py)
 
 
 ## Dashboard Visualization:
