@@ -74,7 +74,11 @@ Segment 1 - https://drive.google.com/file/d/1jBHAhm4AzAVBi5AUHJoCA3l3yXS9wJuA/vi
 Segment 2 - https://docs.google.com/presentation/d/13ICAp0w_pGawtcIiCHCIWfkRKR1s869B/edit?rtpof=true
 
 - Flow Diagram
+Segment 2
 ![Flow_Diagram.PNG](/Tableau_Dashboard_files/Flow_Diagram.PNG)
+Segment 3
+![Flow_Diagram_Segment_3.PNG](/Tableau_Dashboard_files/Flow_Diagram_Segment_3.PNG)
+
 
 ## __Tools and technologies used in Segment 1:__
 
@@ -130,6 +134,7 @@ PostgreSQL – Relational Database System, as seen in the screenshot below:
 ## Dashboard Visualization:
 It has been proposed that Tableau will be used to create visualizations for this project. For Dashboard blueprint, please refer to the below files:
 
+### Segment 2
 1) Risk by BP and  Agegroup 
 
 ![HeartDiseaseRisk_basedon_BP and AgeGroup.PNG](/Tableau_Dashboard_files/HeartDiseaseRisk_basedon_BP_and_AgeGroup.PNG)
@@ -145,6 +150,66 @@ It has been proposed that Tableau will be used to create visualizations for this
 4) Risk by SmokingPattern.PNG
 
 ![Heartatrisk_basedon_SmokingPattern.PNG](/Tableau_Dashboard_files/Heartatrisk_basedon_SmokingPattern.PNG)
+
+### Segment 3
+
+For the completeness and transparency with more detail oriented visualization for the purpose of understanding the datapoint, below charts and tables were added. This is helpful in decision making process for Prediction Model and understdata itself based on domain.
+
+1) Dashboard for Individual feature for analysis
+![Dashboard_Nisha.png](/Tableau_Dashboard_files/Dashboard_Nisha.png)
+
+2)Dashboard with multiple features for visualization
+![Dashboard_Nisha_2.png](/Tableau_Dashboard_files/Dashboard_Nisha_2.png)
+
+3)Dashboard with multiple features for Machine Learning Model
+
+
+## Project Learnings and Challenges
+
+- Understanding Dataset is imperative before performing cleaning or analysis
+- Knowledge of Domain/Subject Matter helps to understand the significance and weightage for each value present 
+- From the dataset, it is require whether the dataset alone will suffice the requirement to achieve the target or objective to resolve any problem/ question we are hoping to anser 
+- Selection of dataset is a key to address the issue/problem in terms of feature available, datatype, validity and authenticity of the datasource 
+- In case teh data is incomplete, it has its risk of inaccurate analsysi and incorrect prediction of machine learning model 
+
+## Recommendation
+
+### Database
+
+- Connecting to cloud Database
+- Maintaining a backup of data
+- Understanding correct datatype
+- Data cleaning based on key feature requirement
+
+### Git Hub
+
+- Knowledge of basic functions of Git hub for eg: commit, merge, clean up the repository is important to save time on working on core deliverables of the project
+- Maintaining a clean repository helps to avodi any duplication and confusion while working o n large dataset and with a bigger team of developers delivering feature for the same application
+- To make sure any upgrades in infrastructure required has been done and getting the information from authetic source
+- Ensuring any changes/modification have been commited and merged wheneever applicable to avoid bug/break 
+
+### Machine Learning Model
+
+- Decision for selecting Model
+- Understanding Input Data
+- Comparison to achieve outcome
+- Understanding Pros and Cons for different ML model
+- Adding more dimension to the analysis
+- Addressing Class Imbalance issues
+- Attempt to get a better Recall score along with Accuracy 
+- Consider other machine learning Models such as simple Neural networks
+
+### Dashboard
+
+- Accuracy in reading the value of each data point in the graph
+- Understanding datapoint value significance based on domain of dataset
+- Weightage for each feature
+- Understanding statistical significance for each data point
+- Data analysis and visualization correlation with prediction models
+
+
+
+
 
 
 
