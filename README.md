@@ -107,7 +107,7 @@ It has been proposed that our database will be created in
 PostgreSQL – Relational Database System, as seen in the screenshot below:
 - Connection String (AWS to PostgressSQL)
 
-![pgAdmin_AWS connectionString.png](/Database/pgAdmin_AWS connectionString.png)
+![pgAdmin_AWS_connectionString.png](/Database/pgAdmin_AWS_connectionString.png)
 
 
 - File on AWS - S3 bucket
