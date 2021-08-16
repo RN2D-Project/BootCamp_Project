@@ -142,7 +142,7 @@ It has been proposed that Tableau will be used to create visualizations for this
 
 ### Segment 3
 
-For the completeness and transparency with more detail oriented visualization for the purpose of understanding the datapoint, below charts and tables were added. This is helpful in decision making process for Prediction Model and understdata itself based on domain.
+For the completeness and transparency with more detail oriented visualization for the purpose of understanding the datapoint, below charts and tables were added. This is helpful in decision making process for the Prediction Model and understand the data itself based on the domain.
 
 1)Dashboard for Individual feature for analysis
 ![Dashboard_Nisha.png](/Tableau_Dashboard_files/Dashboard_Nisha.png)
@@ -156,11 +156,11 @@ For the completeness and transparency with more detail oriented visualization fo
 
 ## __Project Learnings and Challenges__
 
-- Understanding Dataset is imperative before performing cleaning or analysis
-- Knowledge of Domain/Subject Matter helps to understand the significance and weightage for each value present 
-- From the dataset, it is require whether the dataset alone will suffice the requirement to achieve the target or objective to resolve any problem/ question we are hoping to anser 
-- Selection of dataset is a key to address the issue/problem in terms of feature available, datatype, validity and authenticity of the datasource 
-- In case teh data is incomplete, it has its risk of inaccurate analsysi and incorrect prediction of machine learning model 
+- Understanding dataset is imperative before performing data cleaning or  data analysis.
+- Knowledge of Domain/Subject Matter helps to understand the significance and weightage for each value present in the dataset.
+- From the dataset, it is important to analyze whether the dataset alone will suffice the requirement to achieve the target or objective to resolve any problem/ question we are hoping to answer. 
+- Selection of dataset is a key to address the issue/problem in terms of feature available, datatype, validity and authenticity of the datasource. 
+- In case the data is incomplete, it has risk of inaccurate analysis and incorrect prediction based on the machine learning model selected.
 
 ## __Recommendations__
 
@@ -174,14 +174,14 @@ For the completeness and transparency with more detail oriented visualization fo
 ### Git Hub
 
 - Knowledge of basic functions of Git hub for eg: commit, merge, clean up the repository is important to save time on working on core deliverables of the project
-- Maintaining a clean repository helps to avodi any duplication and confusion while working o n large dataset and with a bigger team of developers delivering feature for the same application
+- Maintaining a clean repository helps to avoid any duplication and confusion while working on large dataset and with a bigger team of developers delivering feature for the same application
 - To make sure any upgrades in infrastructure required has been done and getting the information from authetic source
 - Ensuring any changes/modification have been commited and merged wheneever applicable to avoid bug/break 
 
 ### Machine Learning Model
 
 - Decision for selecting Model
-- Understanding Input Data
+- Understanding input data
 - Comparison to achieve outcome
 - Understanding Pros and Cons for different ML model
 - Adding more dimension to the analysis
@@ -200,7 +200,7 @@ For the completeness and transparency with more detail oriented visualization fo
 
 ## __Final Results__ 
 
-As per data analysis performed and different ML model, it has  been identified that the best accuracy score was achieved by using Gradient Boosting Model. However, considering the dataset is relevant to heart disease, the precision and recall score along with accuracy score is imperative, hence it was concluded that Decision Tree Model to be more relevant model for this dataset.
+As per data analysis performed and different ML model, it has  been identified that the best accuracy score was achieved by using Gradient Boosting Model. However, considering the dataset is relevant to heart disease, better precision and recall score along with accuracy score is imperative, hence it was concluded that Decision Tree Model to be more relevant model for this dataset to predict whether the patient has risk for coronary heart disease in the  next 10 years. 
 
 
 
