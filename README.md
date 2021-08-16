@@ -1,18 +1,18 @@
 # __BootCamp_Project__
 
 ## __Overview:__
-Originally - The group identified YouTube videos with 6000 records to performn the analysis and use machine learning to understand which feature contributes the most to make the video trending. Using the regression model, the accuracy score was very low, hence, the group switched the project to a different dataset (Heart Disease).
+Originally - The group identified YouTube videos with 6000 records to perform the analysis and use machine learning to understand which feature contributes the most to make the video trending. It was found that the data was poorly correlated and the accuracy score was very low. Hence, the group switched the project to a different dataset (Heart Disease).
 
 In this current dataset which is related to Heart Disease, our  objective is to identify the the weightage for each feature i.e. preexisting condition, medication, age group and other parameters to predict whether a patient is at heart disease risk or not.  
 
 ### __Dataset selection:__
-A number of datasets were reviewed before finalizing the Heart Disease Dataset from source - Kaggle.com and extracted additional secondary data set from CDC, American Heart Association and Mayo Clinic.
+A number of datasets were reviewed before finalizing the Heart Disease Dataset from source - Kaggle.com and additional secondary datasets were extracted from CDC, American Heart Association and Mayo Clinic.
 
-Heart Disease is one of the leading cause of death for men and women in the United States. It is said that women are at a greater risk for Heart Disease than men. About 1 in every 5 female deaths  is due to heart disease(www.cdc.gov). The diagnosis of heart disease can be challenging especially in women since they present atypical symptoms, as opposed to men. According to https://pubmed.ncbi.nlm.nih.gov/26210899/, “this, in association with a consistent underestimation of their risk for ischemic heart disease, leads to underdiagnosis and undertreatment in women.” Hence, a decision was made to analyze the dataset for Heart Disease for female patients only.
+Heart Disease is one of the leading cause of death for men and women in the United States. It is said that women are at a greater risk for Heart Disease than men. About 1 in every 5 female deaths is due to heart disease(www.cdc.gov). The dataset comprises of demographic details, habits, existing health conditions and parameters for each patient record, along with their heart disease risk. This project analyzes the risk of Heart Disease for female patients only.
 
 ### _Reason_for_selection:_
 
-A) _General Reasons_
+A) General Reasons
 1. A relevant topic that is relatable to a wide audience.
 2. Beneficial to a number of stakeholders such as Patients at risk, hospitals and health systems, insurance companies
 3. A robust automated system to predict heart Disease may enable an increased accuracy of diagnosis.
@@ -30,7 +30,7 @@ This dataset has been sourced from Kaggle.
 - Primary Data Source: https://www.kaggle.com/dileep070/heart-disease-prediction-using-logistic-regression
 It contains details such as patient age, medication, test results,smoking pattern to predict whether the patient is at risk or not.
 
-- Secondary Data Source: It includes  the data required for Analysis and Vizualisation
+- Secondary Data Source: It includes the data required for Analysis and Vizualisation
 
 - Glucose Levels: https://www.cdc.gov/diabetes/basics/getting-tested.html
 - Blood Pressure: https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings
@@ -84,13 +84,13 @@ For more details, please refer to the Technology documentation.
 
 ## __Machine Learning Model Description:__
 
-The machine learning model proposed for this project is a Logistic regression model in order to predict the risk of patient for heart disease based on existing features and parameters. Other Classification models such as Support vector Model, Random Forest Classifier and Decision Tree Classifier may also be used to build a robust Machine Learning Model.
-
+The machine learning model proposed for this project is a Binary Classification Model in order to predict the risk of female patients for heart disease based on existing features and parameters. Classification models such as Logistic regression, Support vector Model, Random Forest Classifier, Decision Tree Classifier and Gradient Boosting Model have been used. Each model’s accuracy score and Classification report have been recorded.
 For more details, please refer to the Machine Learning Documentation.
-![MachineLearningModel_proposal_Seg2.docx](/Machine_Learning_Model/MachineLearningModel_proposal_Seg2.docx)
 
-The code for Machine Learning Model can be viewed here:
-[HeartDiseasePredictor_MLM.ipynb](HeartDiseasePredictor_MLM.ipynb)
+![MachineLearningModel_proposal.docx](/Machine_Learning_Model/MachineLearningModel_proposal.docx)
+
+The code for Exploratory Data Analysis and Machine Learning Model can be viewed here:
+[FINALHeartDiseasePredictor_MLM.ipynb](FINALHeartDiseasePredictor_MLM.ipynb)
 
 ## __Database Description:__
 
@@ -120,7 +120,7 @@ PostgreSQL – Relational Database System, as seen in the screenshot below:
 ![FHD_predictor_SQLCode.py](ETL/FHD_predictor_SQLCode.py)
 
 
-## Dashboard Visualization:
+## __Dashboard Visualization__:
 It has been proposed that Tableau will be used to create visualizations for this project. For Dashboard blueprint, please refer to the below files:
 
 ### Segment 2
@@ -144,7 +144,7 @@ It has been proposed that Tableau will be used to create visualizations for this
 
 For the completeness and transparency with more detail oriented visualization for the purpose of understanding the datapoint, below charts and tables were added. This is helpful in decision making process for Prediction Model and understdata itself based on domain.
 
-1) Dashboard for Individual feature for analysis
+1)Dashboard for Individual feature for analysis
 ![Dashboard_Nisha.png](/Tableau_Dashboard_files/Dashboard_Nisha.png)
 
 2)Dashboard with multiple features for visualization
@@ -200,7 +200,7 @@ For the completeness and transparency with more detail oriented visualization fo
 
 ## Final_Results 
 
-- As per data analysis performed and different ML model, it has  been identified that the best accuracy score was achieved by using Gradient Boosting Model. However, considering the dataset is relevant to heart disease, the precision and recall score alongwith accuracy score is imperative, hence it was concluded that Decision Tree Model to be more relevant model for this dataset.
+As per data analysis performed and different ML model, it has  been identified that the best accuracy score was achieved by using Gradient Boosting Model. However, considering the dataset is relevant to heart disease, the precision and recall score along with accuracy score is imperative, hence it was concluded that Decision Tree Model to be more relevant model for this dataset.
 
 
 
