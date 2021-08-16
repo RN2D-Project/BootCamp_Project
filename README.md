@@ -107,7 +107,7 @@ It has been proposed that our database will be created in
 PostgreSQL – Relational Database System, as seen in the screenshot below:
 - Connection String (AWS to PostgressSQL)
 
-![pgAdmin-AWS connectionString.png](/Database/pgAdmin-AWS connectionString.png)
+![pgAdmin_AWS connectionString.png](/Database/pgAdmin_AWS connectionString.png)
 
 
 - File on AWS - S3 bucket
@@ -197,6 +197,9 @@ For the completeness and transparency with more detail oriented visualization fo
 - Data analysis and visualization correlation with prediction models
 
 
+## Final_Results 
+
+- As per data analysis performed and different ML model, it has  been identified that the best accuracy score was achieved by using Gradient Boosting Model. However, considering the dataset is relevant to heart disease, the precision and recall score alongwith accuracy score is imperative, hence it was concluded that Decision Tree Model to be more relevant model for this dataset.
 
 
 
