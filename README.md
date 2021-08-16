@@ -6,20 +6,13 @@ Originally - The group identified YouTube videos with 6000 records to performn t
 In this current dataset which is related to Heart Disease, our  objective is to identify the the weightage for each feature i.e. preexisting condition, medication, age group and other parameters to predict whether a patient is at heart disease risk or not.  
 
 ### __Dataset selection:__
-A number of datasets were reviewed before finalizing the Youtube Video Dataset from source - Kaggle.com, namely:
-- Youtube trending Video 
-- Dataset to predict preferences to opt for Travel insurance
-- Reading Habits prediction in US adults
-- Walmart sales Retail data set
-- House Sale Price prediction
-- Fuel vs Electric vehicle preference prediction
-- Heart Disease
+A number of datasets were reviewed before finalizing the Heart Disease Dataset from source - Kaggle.com and extracted additional secondary data set from CDC, American Heart Association and Mayo Clinic.
 
-A decision was made to analyze the dataset for Heart Disease for female patients only.
+Heart Disease is one of the leading cause of death for men and women in the United States. It is said that women are at a greater risk for Heart Disease than men. About 1 in every 5 female deaths  is due to heart disease(www.cdc.gov). The diagnosis of heart disease can be challenging especially in women since they present atypical symptoms, as opposed to men. According to https://pubmed.ncbi.nlm.nih.gov/26210899/, “this, in association with a consistent underestimation of their risk for ischemic heart disease, leads to underdiagnosis and undertreatment in women.” Hence, a decision was made to analyze the dataset for Heart Disease for female patients only.
 
-### __Reason for selection__
+### _Reason_for_selection:_
 
-A) General Reasons
+A) _General Reasons_
 1. A relevant topic that is relatable to a wide audience.
 2. Beneficial to a number of stakeholders such as Patients at risk, hospitals and health systems, insurance companies
 3. A robust automated system to predict heart Disease may enable an increased accuracy of diagnosis.
@@ -33,35 +26,23 @@ B) Project specific reasons
 
 ## Description of source of the data
 This dataset has been sourced from Kaggle. 
-Source: https://www.kaggle.com/dileep070/heart-disease-prediction-using-logistic-regression
 
+- Primary Data Source: https://www.kaggle.com/dileep070/heart-disease-prediction-using-logistic-regression
 It contains details such as patient age, medication, test results,smoking pattern to predict whether the patient is at risk or not.
+
+- Secondary Data Source: It includes  the data required for Analysis and Vizualisation
+
+- Glucose Levels: https://www.cdc.gov/diabetes/basics/getting-tested.html
+- Blood Pressure: https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings
+- BMI details:  https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html
 
 
 ### __Purpose of Analysis:__
 For the purpose of our analysis, we will use data related to heart disease to predict whether the patient has heart disease risk or not.
 
 The following actions will be performed:
-
 - Perform analysis for current BP and cholestrol level, current smoking pattern,age group, any current BP medication, glucose level.
 - Use Machine learning models to predict the patients risk for heart disease
-
-
-## __Team and Roles:__
-- Square - Neeraja Jayaraman
-- Triangle -  Dixie Peralta, Richelle Long
-- Circle - Nisha Bharakhada
-- X - Dixie Peralta, Richelle Long, Neeraja Jayaraman & Nisha Bharakhada
-
-
-## __Commmunication protocol:__
-The following modes of communication will be used by the team.
-1. Git Hub - Coding, ReadMe, Commits and Final Project Results  
-2. Slack - Team's main communication  
-3. Google Drive  - For Assignments, Documents and Notes  
-4. Zoom - Daily / Weekly meetups
-For more details, please refer to the communication protocol document.
-[CommunicationProtocol.docx](CommunicationProtocol.docx)
 
 ## __Presentation:__
 - Provisional Machine learning Model - Neeraja and Nisha
@@ -73,14 +54,20 @@ Segment 1 - https://drive.google.com/file/d/1jBHAhm4AzAVBi5AUHJoCA3l3yXS9wJuA/vi
 
 Segment 2 - https://docs.google.com/presentation/d/13ICAp0w_pGawtcIiCHCIWfkRKR1s869B/edit?rtpof=true
 
+Final Presentation - https://docs.google.com/presentation/d/1s1qQwOIecOM4UZOrxdT4CettU2ODbH8h/edit?usp=drive_web&ouid=108300748493661684309&rtpof=true
+
 - Flow Diagram
+
 Segment 2
+
 ![Flow_Diagram.PNG](/Tableau_Dashboard_files/Flow_Diagram.PNG)
+
 Segment 3
+
 ![Flow_Diagram_Segment_3.PNG](/Tableau_Dashboard_files/Flow_Diagram_Segment_3.PNG)
 
 
-## __Tools and technologies used in Segment 1:__
+## __Tools and technologies used:__
 
 - Microsoft Excel - To view the data once csv file is downloaded
 - AWS and S3 - Database hosting on the cloud
@@ -91,6 +78,7 @@ Segment 3
 - Tableau for Visualizations
 - Github
 - Google Drive - To keep all the documents at one central location
+
 For more details, please refer to the Technology documentation.
 ![technology.md](technology.md)
 
@@ -103,6 +91,7 @@ For more details, please refer to the Machine Learning Documentation.
 
 The code for Machine Learning Model can be viewed here:
 [HeartDiseasePredictor_MLM.ipynb](HeartDiseasePredictor_MLM.ipynb)
+
 ## __Database Description:__
 
 For details on Data ETL process and database setup, please refer to the Database documentation.
@@ -118,7 +107,7 @@ It has been proposed that our database will be created in
 PostgreSQL – Relational Database System, as seen in the screenshot below:
 - Connection String (AWS to PostgressSQL)
 
-![pgAdmin_AWS_connection.png](/Database/pgAdmin_AWS_connection.png)
+![pgAdmin-AWS connectionString.png](/Database/pgAdmin-AWS connectionString.png)
 
 
 - File on AWS - S3 bucket
