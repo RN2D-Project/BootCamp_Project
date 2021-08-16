@@ -151,6 +151,7 @@ For the completeness and transparency with more detail oriented visualization fo
 ![Dashboard_Nisha_2.png](/Tableau_Dashboard_files/Dashboard_Nisha_2.png)
 
 3)Dashboard with multiple features for Machine Learning Model
+![MLMDashboard.png](/Tableau_Dashboard_files/MLMDashboard.png)
 
 
 ## Project Learnings and Challenges
