@@ -10,7 +10,7 @@ A number of datasets were reviewed before finalizing the Heart Disease Dataset f
 
 Heart Disease is one of the leading cause of death for men and women in the United States. It is said that women are at a greater risk for Heart Disease than men. About 1 in every 5 female deaths is due to heart disease(www.cdc.gov). The dataset comprises of demographic details, habits, existing health conditions and parameters for each patient record, along with their heart disease risk. This project analyzes the risk of Heart Disease for female patients only.
 
-### _Reason_for_selection:_
+### __Reason for selection:__
 
 A) General Reasons
 1. A relevant topic that is relatable to a wide audience.
@@ -58,11 +58,11 @@ Final Presentation - https://docs.google.com/presentation/d/1s1qQwOIecOM4UZOrxdT
 
 - Flow Diagram
 
-Segment 2
+__Segment 2__
 
 ![Flow_Diagram.PNG](/Tableau_Dashboard_files/Flow_Diagram.PNG)
 
-Segment 3
+__Segment 3__
 
 ![Flow_Diagram_Segment_3.PNG](/Tableau_Dashboard_files/Flow_Diagram_Segment_3.PNG)
 
@@ -90,18 +90,18 @@ For more details, please refer to the Machine Learning Documentation.
 ![MachineLearningModel_proposal.docx](/Machine_Learning_Model/MachineLearningModel_proposal.docx)
 
 The code for Exploratory Data Analysis and Machine Learning Model can be viewed here:
-[FINALHeartDiseasePredictor_MLM.ipynb](FINALHeartDiseasePredictor_MLM.ipynb)
+[FINALHeartDiseasePredictor_MLM.ipynb](/JupyterNotebook_DatasetandMLM/FINALHeartDiseasePredictor_MLM.ipynb)
 
 ## __Database Description:__
 
 For details on Data ETL process and database setup, please refer to the Database documentation.
-![HD_ETL_AWS_and_S3_documentation.docx](/ETL/HD_ETL_AWS_and_S3_documentation.docx)
+![HD_ETL_AWS_and_S3_documentation.docx](/Database/HD_ETL_AWS_and_S3_documentation.docx)
 
-The code for ETL can be viewed here: [predicting_heart_disease_in_females.ipynb](predicting_heart_disease_in_females.ipynb)
+The code for ETL can be viewed here: [predicting_heart_disease_in_females.ipynb](/JupyterNotebook_DatasetandMLM/predicting_heart_disease_in_females.ipynb)
 
 The schema of the database can be viewed below:
 Quick Database Diagram:
-![ETL/FHD_Predictor_ERD.png](/ETL/FHD_Predictor_ERD.png)
+![ETL/FHD_Predictor_ERD.png](/Database/FHD_Predictor_ERD.png)
 
 It has been proposed that our database will be created in 
 PostgreSQL – Relational Database System, as seen in the screenshot below:
@@ -154,7 +154,7 @@ For the completeness and transparency with more detail oriented visualization fo
 ![MLMDashboard.png](/Tableau_Dashboard_files/MLMDashboard.png)
 
 
-## Project Learnings and Challenges
+## __Project Learnings and Challenges__
 
 - Understanding Dataset is imperative before performing cleaning or analysis
 - Knowledge of Domain/Subject Matter helps to understand the significance and weightage for each value present 
@@ -162,7 +162,7 @@ For the completeness and transparency with more detail oriented visualization fo
 - Selection of dataset is a key to address the issue/problem in terms of feature available, datatype, validity and authenticity of the datasource 
 - In case teh data is incomplete, it has its risk of inaccurate analsysi and incorrect prediction of machine learning model 
 
-## Recommendation
+## __Recommendations__
 
 ### Database
 
@@ -198,7 +198,7 @@ For the completeness and transparency with more detail oriented visualization fo
 - Data analysis and visualization correlation with prediction models
 
 
-## Final_Results 
+## __Final Results__ 
 
 As per data analysis performed and different ML model, it has  been identified that the best accuracy score was achieved by using Gradient Boosting Model. However, considering the dataset is relevant to heart disease, the precision and recall score along with accuracy score is imperative, hence it was concluded that Decision Tree Model to be more relevant model for this dataset.
 
