@@ -25,6 +25,8 @@ Resources:	Clean data set :       ~ clean_FHD_predictor_dataset.csv  ~ 2,034 row
 -   glucose_pks.csv
 -   totChol_pks.csv
 
+![DB_Tables](https://user-images.githubusercontent.com/87670915/129688198-52636c48-7167-4c56-8ef9-9abb918b7f61.png)
+
 
 
 
