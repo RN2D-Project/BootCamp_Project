@@ -27,8 +27,11 @@ Resources:	Clean data set :       ~ clean_FHD_predictor_dataset.csv  ~ 2,034 row
 -   bp_pks.csv
 -   glucose_pks.csv
 -   totChol_pks.csv
+-   
+![postgreSQL pgAdmin Tables](https://user-images.githubusercontent.com/87670915/129856763-9b0d6d39-fde9-4d00-bbf1-858b4b7d3f59.png)
 
+![Pandas-PostGres](https://user-images.githubusercontent.com/87670915/129856754-bc98c13e-cf73-4179-bd3d-785bad825d67.png)
 
-![DB_Tables](https://user-images.githubusercontent.com/87670915/129688198-52636c48-7167-4c56-8ef9-9abb918b7f61.png)
+![SQL_Python_Connection_String](https://user-images.githubusercontent.com/87670915/129856778-a32a39e1-ee50-4473-9cfb-d4baf4443db3.png)
 
-
+![SQL_Python_Connection_Query](https://user-images.githubusercontent.com/87670915/129856828-193ef065-cac0-4bfe-af36-4b9088f976c9.png)
