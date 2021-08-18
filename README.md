@@ -90,7 +90,7 @@ For more details, please refer to the Machine Learning Documentation.
 ![MachineLearningModel_proposal.docx](/Machine_Learning_Model/MachineLearningModel_proposal.docx)
 
 The code for Exploratory Data Analysis and Machine Learning Model can be viewed here:
-[FINALHeartDiseasePredictor_MLM.ipynb](/JupyterNotebook_DatasetandMLM/FINALHeartDiseasePredictor_MLM.ipynb)
+[FINALHeartDiseasePredictor_MLM.ipynb](/JupyterNotebook_Dataset_and_MLM/FINALHeartDiseasePredictor_MLM.ipynb)
 
 ## __Database Description:__
 
