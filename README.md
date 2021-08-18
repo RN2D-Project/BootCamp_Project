@@ -200,7 +200,7 @@ For the completeness and transparency with more detail oriented visualization fo
 
 ## __Final Results__ 
 
-As per data analysis performed and different ML model, it has  been identified that the best accuracy score was achieved by using Gradient Boosting Model. However, considering the dataset is relevant to heart disease, better precision and recall score along with accuracy score is imperative, hence it was concluded that Decision Tree Model to be more relevant model for this dataset to predict whether the patient has risk for coronary heart disease in the  next 10 years. 
+As per data analysis performed and different ML model, it has  been identified that the best accuracy score was achieved by using Logistic Regression Model. However, considering the dataset is relevant to heart disease, better precision and recall score along with accuracy score is imperative, hence it was concluded that Decision Tree Model to be more relevant model for this dataset to predict whether the patient has risk for coronary heart disease in the  next 10 years. 
 
 
 
