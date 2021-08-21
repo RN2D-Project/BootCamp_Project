@@ -1,7 +1,7 @@
 # __BootCamp_Project__
 
 ## __Overview:__
-Originally - The group identified YouTube videos with 6000 records to perform the analysis and use machine learning to understand which feature contributes the most to make the video trending. It was found that the data was poorly correlated and the accuracy score was very low. Hence, the group switched the project to a different dataset (Heart Disease).
+The group identified Heart Disease Risk Disease 4238 records to perform the analysis and use machine learning to predict the heart  disease risk in next 10 years for female population of dataset. It was found that the data was poorly correlated and the accuracy score was very low. Hence, the group switched the project to a different dataset (Heart Disease).
 
 In this current dataset which is related to Heart Disease, our  objective is to identify the the weightage for each feature i.e. preexisting condition, medication, age group and other parameters to predict whether a patient is at heart disease risk or not.  
 
@@ -54,14 +54,11 @@ Segment 1 - https://drive.google.com/file/d/1jBHAhm4AzAVBi5AUHJoCA3l3yXS9wJuA/vi
 
 Segment 2 - https://docs.google.com/presentation/d/13ICAp0w_pGawtcIiCHCIWfkRKR1s869B/edit?rtpof=true
 
-Final Presentation - https://docs.google.com/presentation/d/1s1qQwOIecOM4UZOrxdT4CettU2ODbH8h/edit?usp=drive_web&ouid=108300748493661684309&rtpof=true
+Final_Presentation
+
+![UCB_Capstone_Project_Final.ppt](/Presentation/UCB_Capstone_Project_Final.ppt)
 
 - Flow Diagram
-
-__Segment 2__
-
-![Flow_Diagram.PNG](/Tableau_Dashboard_files/Flow_Diagram.PNG)
-
 __Segment 3__
 
 ![Flow_Diagram_Segment_3.PNG](/Tableau_Dashboard_files/Flow_Diagram_Segment_3.PNG)
@@ -70,7 +67,6 @@ __Segment 3__
 ## __Tools and technologies used:__
 
 - Microsoft Excel - To view the data once csv file is downloaded
-- AWS and S3 - Database hosting on the cloud
 - Postgress SQL - To create a database
 - Python (Jupyter Notebook)
 - QDB - To create ERD diagram
@@ -95,63 +91,27 @@ The code for Exploratory Data Analysis and Machine Learning Model can be viewed 
 ## __Database Description:__
 
 For details on Data ETL process and database setup, please refer to the Database documentation.
-![HD_ETL_AWS_and_S3_documentation.docx](/Database/HD_ETL_AWS_and_S3_documentation.docx)
+![Database.md](/Database/Database.md)
 
 The code for ETL can be viewed here: [predicting_heart_disease_in_females.ipynb](/JupyterNotebook_DatasetandMLM/predicting_heart_disease_in_females.ipynb)
 
 The schema of the database can be viewed below:
 Quick Database Diagram:
-![ETL/FHD_Predictor_ERD.png](/Database/FHD_Predictor_ERD.png)
+![Database/FHD_Predictor_ERD.png](/Database/FHD_Predictor_ERD.png)
 
 It has been proposed that our database will be created in 
 PostgreSQL – Relational Database System, as seen in the screenshot below:
-- Connection String (AWS to PostgressSQL)
-
-![pgAdmin_AWS_connectionString.png](/Database/pgAdmin_AWS_connectionString.png)
-
-
-- File on AWS - S3 bucket
-
-![AWS_S3_Bucket.png](Database/AWS_S3_Bucket.png)
-
-- File 
+![SQL_Python_Connection_String.png](/Database/SQL_Python_Connection_String.png)
 
 - Different tables were joined using 'join' query
-![FHD_predictor_SQLCode.py](ETL/FHD_predictor_SQLCode.py)
+![FHD_predictor_SQLCode.py](Database/FHD_predictor_SQLCode.py)
 
 
 ## __Dashboard Visualization__:
-It has been proposed that Tableau will be used to create visualizations for this project. For Dashboard blueprint, please refer to the below files:
+It has been proposed that Tableau will be used to create visualizations for this project. For the completeness and transparency with more detail oriented visualization for the purpose of understanding the datapoint, below charts and tables were added. This is helpful in decision making process for the Prediction Model and understand the data itself based on the domain.
 
-### Segment 2
-1) Risk by BP and  Agegroup 
-
-![HeartDiseaseRisk_basedon_BP and AgeGroup.PNG](/Tableau_Dashboard_files/HeartDiseaseRisk_basedon_BP_and_AgeGroup.PNG)
-
-2) Risk by Agegroup 
-
-![HeartDiseaseRisk_by_AgeGroup.PNG](/Tableau_Dashboard_files/HeartDiseaseRisk_by_AgeGroup.PNG)
-
-3) Risk by Cholestrollevel
-
-![Heartatrisk_basedon_Cholestrol_level.PNG](/Tableau_Dashboard_files/Heartatrisk_basedon_Cholestrol_level.PNG)
-
-4) Risk by SmokingPattern.PNG
-
-![Heartatrisk_basedon_SmokingPattern.PNG](/Tableau_Dashboard_files/Heartatrisk_basedon_SmokingPattern.PNG)
-
-### Segment 3
-
-For the completeness and transparency with more detail oriented visualization for the purpose of understanding the datapoint, below charts and tables were added. This is helpful in decision making process for the Prediction Model and understand the data itself based on the domain.
-
-1)Dashboard for Individual feature for analysis
-![Dashboard_Nisha.png](/Tableau_Dashboard_files/Dashboard_Nisha.png)
-
-2)Dashboard with multiple features for visualization
-![Dashboard_Nisha_2.png](/Tableau_Dashboard_files/Dashboard_Nisha_2.png)
-
-3)Dashboard with multiple features for Machine Learning Model
-![MLMDashboard.png](/Tableau_Dashboard_files/MLMDashboard.png)
+For Dashboard, please refer to the below link:
+https://public.tableau.com/authoring/FemaleHeartDiseasePredictor/Story_Board#1
 
 
 ## __Project Learnings and Challenges__
