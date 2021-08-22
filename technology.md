@@ -15,9 +15,6 @@
 
 - Quick DBD has been used to create and plan the database schme and ERD diagram.
 - PostGres has been used to create the database .
-- Database has been hosted on AWS using AWS's relational Database Service.
-- The Database is accessed using pgAdmin and connecting the same to the RDS instance on AWS.
-- AWS's S3 has been used to store raw data that should go into the database.
 - The ETL process has been performed using Pandas and Jupyter Notebook. 
 
 ## Machine Learning

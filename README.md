@@ -143,4 +143,4 @@ As per data analysis performed and different Machine Learning models attempted, 
 
 ## __Closing Observations:__
 
-In conclusion, a robust machine learning model, when presented with a good quality dataset can be a very useful tool in predicting heart disease risk ion patients. 
+In conclusion, a robust machine learning model, when presented with a good quality dataset can be a very useful tool in predicting heart disease risk in patients. 
