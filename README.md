@@ -133,7 +133,12 @@ https://public.tableau.com/app/profile/fhd.ucb2021/viz/FemaleHeartDiseasePredict
 
 ## __Results of Analysis:__
 
-The dashboard above displays the relationship between various preexisting conditions and heart disease.
+The dashboard above displays the relationship between various preexisting conditions and heart disease.The following were some observations that were made:
+- Patient's risk for heart disease increases with age.
+- When there are no pre-existing conditions then the chances are higher for that person to not be at risk for heart disease.
+- Even with no other pre-existing conditions, the presence of Hypertension does increase risk for heart disease.
+- A combination of higher age and increased hypertension or high cholestrol or being overweight increases the risk for heart disease.
+
 
 As per data analysis performed and different Machine Learning models attempted, it has been identified that the best accuracy score was achieved by using Logistic Regression Model. However, considering the dataset is relevant to heart disease, better precision and recall score along with accuracy score is imperative, hence it was concluded that Decision Tree Model to be more relevant model for this dataset to predict whether the patient has risk for coronary heart disease in the  next 10 years. 
 
