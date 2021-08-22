@@ -11,11 +11,11 @@ A number of datasets were reviewed before finalizing the Heart Disease Dataset f
 The dataset comprises of demographic details, habits, existing health conditions and parameters for each patient record, along with their heart disease risk. This project analyzes the risk of Heart Disease for female patients only.
 
 ### __Reason for selection:__
-Heart Disease is one of the leading cause of death for men and women in the United States. It is said that women are at a greater risk for Heart Disease than men. About 1 in every 5 female deaths is due to heart disease(www.cdc.gov)
+Heart Disease is one of the leading causes of death for men and women in the United States. It is said that women are at a greater risk for Heart Disease than men. About 1 in every 5 female deaths is due to heart disease(www.cdc.gov)
 
 A) General Reasons for selection
 1. A relevant topic that is relatable to a wide audience.
-2. Beneficial to a number of stakeholders such as Patients at risk, hospitals and health systems, insurance companies
+2. Beneficial to a number of stakeholders such as Patients at risk, hospitals and health systems, insurance companies.
 3. A robust automated system to predict heart Disease may enable an increased accuracy of diagnosis.
 4. It could enable Health Systems to provide better quality of care.
 5. It will especially be beneficial in taking timely preventive action especially in female patients as they present atypical symptoms when compared to males leading to difficulties and delays in diagnosis.
@@ -39,15 +39,15 @@ This contains details such as patient age, medication, test results,smoking patt
 
 
 ## __Purpose of Analysis:__
-Through this analysis, the following questions will be answered:
+Through this analysis, the following questions were answered:
 1. What is the relationship between pre-existing conditions and risk for heart disease?
 2. What conditions have a greater impact on heart health over others?
-3. How does the existemce of multiple conditions impact heart disease?
+3. How does the existence of multiple conditions impact heart disease?
 4. Is it possible to predict a person's risk for heart disease based on studying the patterns of features such as demographics, preexisting conditions,habits and parameters?
 
-The following actions will be performed:
-- Perform analysis for current BP and cholestrol level, current smoking pattern,age group, any current BP medication, glucose level.
-- Use Machine learning models to predict the patients risk for heart disease
+The following actions were performed:
+- Performed analysis for current BP and cholestrol level, current smoking pattern,age group, any current BP medication, glucose level.
+- Used Machine learning models to predict the patients risk for heart disease
 
 ## __Team and Roles:__
 
@@ -56,7 +56,7 @@ The following actions will be performed:
 - Nisha Bharakada - GitHub ReadMe, Presentation/ Google Slides, Dashboard, Machine Learning Model.
 - Neeraja Jayaraman -  Project Planning, GitHub ReadMe, Exploratory Data Analysis and Machine Learning Model.
 
-## __Tools and technologies:__
+## __Tools and Technologies:__
 
 - Microsoft Excel - To view the data once csv file is downloaded
 - Postgress SQL - To create a database
@@ -82,7 +82,10 @@ The following flow diagram describes the data Extract, Transform and Load proces
 
 ![Flow_Diagram_Segment_3.PNG](/Tableau_Dashboard_files/Flow_Diagram_Segment_3.PNG)
 
-For details on the data ETL process and database setup, please refer to the Database documentation.
+For details on the data ETL process and database setup, please refer to the following documentation.
+
+![Dataset.md](/Database/Dataset.md)
+
 ![Database.md](/Database/Database.md)
 
 The code for ETL can be viewed here: [predicting_heart_disease_in_females.ipynb](/JupyterNotebook_Dataset_and_MLM/predicting_heart_disease_in_females.ipynb)
@@ -104,8 +107,16 @@ Different tables were joined using 'join' query and an extract of the data was p
 
 ## __Exporatory Data Analysis and Machine Learning Model:__
 
-The machine learning model proposed for this project is a Binary Classification Model in order to predict the risk of female patients for heart disease based on existing features and parameters. Classification models such as Logistic regression, Support vector Model, Random Forest Classifier, Decision Tree Classifier and Gradient Boosting Model have been used. Each model’s accuracy score and Classification report have been recorded.
-For more details, please refer to the Machine Learning Documentation.
+As part of the Exploratory Data Analysis, the following steps were performed:
+-  Data cleaning: Removal of Null Values, Duplicates and Outliers. 
+- Data Distributions were analysed using Count Plots and DistPlots to see if the different features were normally  distributed or unevenly distributed.
+- Data Correlations were analyzed by plotting the correlation Heatmap.
+- Features and Target values were identified.
+
+
+The machine learning model proposed for this project was a Binary Classification Model in order to predict the risk of female patients for heart disease based on existing features and parameters. Classification models such as Logistic regression, Support vector Model, Random Forest Classifier, Decision Tree Classifier and Gradient Boosting Model have been used. Each model’s accuracy score and Classification report have been recorded.
+
+For more details regarding Exploratory Data Analysis and Machine Learning, please refer to the Machine Learning Documentation.
 
 ![MachineLearningModel_proposal.docx](/Machine_Learning_Model/MachineLearningModel_proposal.docx)
 
@@ -117,7 +128,8 @@ The code for Exploratory Data Analysis and Machine Learning Model can be viewed 
 Tableau Public has been used to create visualizations for this project. For the purpose of data analysis and making decisions related to the Machine learning prediction model, visualizations ahve been created on tableau.
 
 For Dashboard, please refer to the below link:
-https://public.tableau.com/authoring/FemaleHeartDiseasePredictor/Story_Board#1
+
+https://public.tableau.com/app/profile/fhd.ucb2021/viz/FemaleHeartDiseasePredictor/Story_Board
 
 ## __Results of Analysis:__
 
@@ -132,7 +144,7 @@ As per data analysis performed and different Machine Learning models attempted, 
 - Adding more features and dimensions as well as increasing the size of datasets by adding more recent data, could help in attaining better precision, recall and accuracy scores.
 - Other Machine learning models such as simple Neural networks could be attempted for a  more optimal result.
 
-## __Project Learnings and Challenges__
+## __Project Learnings and Challenges:__
 
 - Understanding dataset is imperative before performing data cleaning or  data analysis.
 - Knowledge of Domain/Subject Matter helps to understand the significance and weightage for each value present in the dataset.
