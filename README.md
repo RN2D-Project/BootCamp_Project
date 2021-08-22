@@ -85,7 +85,7 @@ The following flow diagram describes the data Extract, Transform and Load proces
 For details on the data ETL process and database setup, please refer to the Database documentation.
 ![Database.md](/Database/Database.md)
 
-The code for ETL can be viewed here: [predicting_heart_disease_in_females.ipynb](/JupyterNotebook_DatasetandMLM/predicting_heart_disease_in_females.ipynb)
+The code for ETL can be viewed here: [predicting_heart_disease_in_females.ipynb](/JupyterNotebook_Dataset_and_MLM/predicting_heart_disease_in_females.ipynb)
 
 The following is the connection string for the data loaded into PostgreSQL:
 ![SQL_Python_Connection_String.png](Database/SQL_Python_Connection_String.png)
