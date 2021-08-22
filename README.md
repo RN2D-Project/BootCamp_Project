@@ -51,10 +51,10 @@ The following actions will be performed:
 
 ## __Team and Roles:__
 
-- Dixie Peralta -  Github Repository, Database, Dashboard
-- Richelle Long - Dashboard, Database, Presentation
+- Dixie Peralta -  Github Repository, Database, ETL and Dashboard
+- Richelle Long - Dashboard, Database, ETL and Presentation
 - Nisha Bharakada - GitHub ReadMe, Presentation/ Google Slides, Dashboard, Machine Learning Model.
-- Neeraja Jayaraman -  Project Planning, GitHub ReadMe, Machine Learning Model.
+- Neeraja Jayaraman -  Project Planning, GitHub ReadMe, Exploratory Data Analysis and Machine Learning Model.
 
 ## __Tools and technologies:__
 
@@ -72,9 +72,9 @@ For more details, please refer to the Technology documentation.
 
 ## __Presentation:__
 
-The presentation can be viewed at the following link: 
+The presentation for this project can be viewed at the following link: 
 
-![UCB_Capstone_Project_Final.ppt](Presentation/UCB_Capstone_Project_Final.ppt)
+![UCB_Capstone_Project_Final.ppt](/Presentation/UCB_Capstone_Project_Final.ppt)
 
 ## __Database Description:__
 
