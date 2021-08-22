@@ -84,7 +84,7 @@ The following flow diagram describes the data Extract, Transform and Load proces
 
 For details on the data ETL process and database setup, please refer to the following documentation.
 
-![Dataset.md](/Database/Dataset.md)
+![Dataset.md](/ETL/Dataset.md)
 
 ![Database.md](/Database/Database.md)
 
