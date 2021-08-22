@@ -74,7 +74,7 @@ For more details, please refer to the Technology documentation.
 
 The presentation for this project can be viewed at the following link: 
 
-![UCB_Capstone_Project_Final.ppt](/Presentation/UCB_Capstone_Project_Final.ppt)
+![UCB_Capstone_Project_Final.pptx](/Presentation/UCB_Capstone_Project_Final.pptx)
 
 ## __Database Description:__
 
