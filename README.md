@@ -68,7 +68,7 @@ The following actions were performed:
 - Google Drive - To keep all the documents at one central location
 
 For more details, please refer to the Technology documentation.
-![technology.md](technology.md)
+![technology.md](/Techonology_Communication_Protocol/technology.md)
 
 ## __Presentation:__
 
